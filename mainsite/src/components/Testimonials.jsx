@@ -15,6 +15,10 @@ const Testimonials = () => {
                             <div className="flex mt-8 items-start">
                                 <img src={testimonial.image} alt={testimonial.user} className='h-12 w-12 mr-6 border border-neutral-300 rounded-full'/>
                             </div>
+                            <div>
+                            <h6>{testimonial.user}</h6>
+                            <span className='text-sm font-normal italic text-neutral-600'>{testimonial.company}</span> 
+                            </div>
                          </div>   
                 </div>
             ))}
